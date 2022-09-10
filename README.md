@@ -1,5 +1,7 @@
 # Toothsi app  
 
+## Project URL – <a href="https://toothsi-app.vercel.app/" rel="noopener" target="_blank">ToothSi App</a>
+
 
 #### This is a product Listing page and cart (checkout) summary page of an ecommerce website which has certain functionalities: 
 
