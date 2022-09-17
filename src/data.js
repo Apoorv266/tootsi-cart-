@@ -22,7 +22,7 @@ import shirt7 from './assets/shirt7.jfif'
 export const productList = [
   {
     id: 3101,
-    name: 'Woo Ninja',
+    name: 'Black Sweatshirt',
     image: hoodie1,
     price: 35,
     size: 'xl',
@@ -32,7 +32,7 @@ export const productList = [
   },
   {
     id: 3102,
-    name: 'Woo Logo',
+    name: 'Yellow sweatshirt',
     image: hoodie2,
     price: 40,
     size: 'm',
@@ -42,7 +42,7 @@ export const productList = [
   },
   {
     id: 3103,
-    name: 'Hoodie C',
+    name: 'White hoodie',
     image: hoodie3,
     price: 55,
     size: 'm',
@@ -52,7 +52,7 @@ export const productList = [
   },
   {
     id: 3104,
-    name: 'Hoodie B',
+    name: 'Pink Hoodie',
     image: hoodie4,
     price: 60,
     size: 'xl',
@@ -62,7 +62,7 @@ export const productList = [
   },
   {
     id: 3105,
-    name: 'pant l',
+    name: 'Yellow pant',
     image: pant1,
     price: 40,
     size: 'lg',
@@ -72,7 +72,7 @@ export const productList = [
   },
   {
     id: 3106,
-    name: 'tshirt',
+    name: 'White tshirt',
     image: shirt1,
     price: 30,
     size: 'lg',

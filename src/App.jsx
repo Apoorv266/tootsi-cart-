@@ -11,7 +11,6 @@ const App = () => {
   const [products, setProducts] = useState(productList)
   const [cartItems, setCartItems] = useState({})
 
-  // console.log(cartItems);
 
   return (
     <div>

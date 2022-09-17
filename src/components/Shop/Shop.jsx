@@ -4,7 +4,7 @@ import { BsArrow90DegLeft } from 'react-icons/bs';
 import Product from './Product';
 import { useNavigate } from 'react-router-dom';
 import store from '../../hooks/store';
-import Footer from '../Footer/Footer';
+
 
 const Shop = ({ products, setProducts , cartItems , setCartItems}) => {
   const [searchInput, setSerachInput] = useState('')
@@ -96,7 +96,7 @@ const Shop = ({ products, setProducts , cartItems , setCartItems}) => {
         {/* Top Right */}
         <div className='flex items-center gap-x-2 order-1 lg:order-2'>
           <span className='hidden lg:block'>Search:</span>
-          <input type="text" placeholder='woo ninja' className='pl-2 border border-[#706f6f] rounded-md' value={searchInput}
+          <input type="text" placeholder='Seach for an item...' className='pl-2 border border-[#706f6f] rounded-md' value={searchInput}
             onChange={(e) => setSerachInput(e.target.value)}
           />
           <button onClick={() => navigate('/cart/checkout')} className='px-4 py-1 bg-[#00A0C6] text-white'>Add To Cart</button>
@@ -150,7 +150,7 @@ const Shop = ({ products, setProducts , cartItems , setCartItems}) => {
           </tbody>
         </table>
       </div>
-      <Footer/>
+
     </div>
   );
 };

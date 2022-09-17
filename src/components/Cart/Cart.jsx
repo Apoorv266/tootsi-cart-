@@ -18,9 +18,6 @@ const Cart = () => {
     totalPrice = Number(totalPrice + (element.price * element.cartQuantity))
   });
 
-  // console.log(totalPrice);
-  // console.log(cartItems);
-
   const thanks = (items) => {
     navigate('/thank-you')
     deleteShoppingCart(items)
@@ -62,7 +59,7 @@ const Cart = () => {
                       />)}
                     </>
                   ) : (
-                    <h2 className='text-2xl  font-semibold text-[#9c6c6c] py-5'>No Product Found</h2>
+                    <h2 className='text-2xl  font-semibold text-[#FA7070] py-5'>No Product Found</h2>
                   )}
                 </tbody>
               </table>
@@ -82,9 +79,9 @@ const Cart = () => {
               </div>
               {
                 totalPrice === 0 ? (
-                  <button className='uppercase text-white bg-[#b5b5b7] rounded-lg text-center mb-2 px-4 py-2 container cursor-not-allowed' disabled >Proceed to checkout</button>
+                  <button className='uppercase text-white bg-[#FA7070] rounded-lg text-center mb-2 px-4 py-2 container cursor-not-allowed' disabled >Proceed to checkout</button>
                 ) : (
-                  <button className='uppercase text-white bg-[#1246AF] rounded-lg text-center mb-2 px-4 py-2 container ' onClick={thanks}>Proceed to checkout</button>
+                  <button className='uppercase text-white bg-[#FA7070] rounded-lg text-center mb-2 px-4 py-2 container ' onClick={thanks}>Proceed to checkout</button>
                 )
               }
             </div>
